@@ -58,7 +58,7 @@
                 {
                     "type" : "git",
                     "url": "https://github.com/gin-contrib/sse",
-                    "commit": "7a04435f65876bc5c9bb4c663e1aa3ef96197190",
+                    "commit": "22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae",
                     "dest": "go/src/github.com/gin-contrib/sse"
                 },
                 {
@@ -131,7 +131,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/jkozera/zealcore.git",
-                    "commit" : "0d5aba9adfc45f56c9f6c1588e3818451e19676e",
+                    "commit": "7a04435f65876bc5c9bb4c663e1aa3ef96197190",
                     "dest": "go/src/github.com/zealdocs/zealcore"
                 }
             ],
