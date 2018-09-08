@@ -7,7 +7,6 @@
         "org.freedesktop.Sdk.Extension.golang"
     ],
     "command" : "zevdocs",
-    "rename-icon": "zevdocs",
     "copy-icon" : true,
     "finish-args" : [
         "--share=ipc",
@@ -42,15 +41,13 @@
     "modules" : [
         {
             "name" : "zevdocs",
-            "config-opts" : [
-                "--enable-flatpak-build"
-            ],
+            "buildsystem" : "meson",
             "sources" : [
                 {
                     "type" : "git",
                     "url" : "https://github.com/jkozera/zevdocs.git",
-                    "tag" : "0.1.0",
-                    "commit": "8f6391f4222aa932b7f1fca27d6446cec4537952"
+                    "tag" : "0.2.0",
+                    "commit": "36a7d50289fa42111fa9ada30a99909fe5ef91a6"
                 }
             ]
         },
@@ -134,7 +131,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/jkozera/zealcore.git",
-                    "commit" : "83166e99106f3a3edb0e235e7f482078eaf682d9",
+                    "commit" : "0d5aba9adfc45f56c9f6c1588e3818451e19676e",
                     "dest": "go/src/github.com/zealdocs/zealcore"
                 }
             ],
