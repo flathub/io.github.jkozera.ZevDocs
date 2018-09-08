@@ -46,8 +46,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/jkozera/zevdocs.git",
-                    "tag" : "0.2.0",
-                    "commit": "36a7d50289fa42111fa9ada30a99909fe5ef91a6"
+                    "tag" : "0.2.1",
+                    "commit": "ff2b44d8be03621003f62fd3296e591a37cbdd59"
                 }
             ]
         },
@@ -58,7 +58,7 @@
                 {
                     "type" : "git",
                     "url": "https://github.com/gin-contrib/sse",
-                    "commit": "22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae",
+                    "commit": "7a04435f65876bc5c9bb4c663e1aa3ef96197190",
                     "dest": "go/src/github.com/gin-contrib/sse"
                 },
                 {
