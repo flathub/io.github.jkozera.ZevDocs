@@ -47,7 +47,7 @@
                     "type" : "git",
                     "url" : "https://github.com/jkozera/zevdocs.git",
                     "tag" : "0.3.0",
-                    "commit": "5bc33c96e9102bd47b7111bb98336fa1d3d9f17d"
+                    "commit": "6bb687252dac113cdcecdad5480560b0ea2923cc"
                 }
             ]
         },
