@@ -46,8 +46,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/jkozera/zevdocs.git",
-                    "tag" : "0.5.0",
-                    "commit": "c8c2f53e8cdeb33986f477c7b17bac3eb58ef564"
+                    "tag" : "0.5.1",
+                    "commit": "754a1e7b2e0ba11f57010bd1ef44e8cfe09eb0fc"
                 }
             ]
         },
@@ -131,7 +131,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/jkozera/zealcore.git",
-                    "commit": "272d90d6018990d82a92d8f76180189598de82be",
+                    "commit": "efe1c8e5046aa9d2644cafcfcd708418136dc476",
                     "dest": "go/src/github.com/zealdocs/zealcore"
                 }
             ],
