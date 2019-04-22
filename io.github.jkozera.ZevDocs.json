@@ -46,8 +46,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/jkozera/zevdocs.git",
-                    "tag" : "0.5.1",
-                    "commit": "754a1e7b2e0ba11f57010bd1ef44e8cfe09eb0fc"
+                    "tag" : "0.5.2",
+                    "commit": "453629be8c90a4e5f76694415752ba8d4a829124"
                 }
             ]
         },
@@ -57,12 +57,12 @@
             "sources" : [
                 {
                     "type" : "file",
-                    "url": "https://raw.githubusercontent.com/GNOME/gnome-icon-theme/30926399c7ccc5af2586beac23617a3e3ccf8336/gnome/16x16/places/start-here.png",
+                    "url": "https://gitlab.gnome.org/GNOME/adwaita-icon-theme/raw/30926399c7ccc5af2586beac23617a3e3ccf8336/gnome/16x16/places/start-here.png",
                     "sha512": "f9983ce895710f5f2daaa23dde61edac93909f5cfaffcf839851d4460e8bae3e42e55061cf0e8007ee942a08f7525d7851851a681955f2b319aa19d09b903f97"
                 },
                 {
                     "type" : "file",
-                    "url": "https://raw.githubusercontent.com/GNOME/gnome-icon-theme/30926399c7ccc5af2586beac23617a3e3ccf8336/gnome/32x32/places/start-here.png",
+                    "url": "https://gitlab.gnome.org/GNOME/adwaita-icon-theme/raw/30926399c7ccc5af2586beac23617a3e3ccf8336/gnome/32x32/places/start-here.png",
                     "sha512": "2f4beb0da0db74a60b0a7c7d02ba1856f0d5253cfd7fc2b9cfc633ae262c2956527cfaeb3339dab0f4a5c7b93061238639fdbc5a46399c85763e321dce7ab947",
                     "dest-filename": "start-here-32.png"
                 }
