@@ -1,7 +1,7 @@
 {
     "app-id" : "io.github.jkozera.ZevDocs",
     "runtime" : "org.gnome.Sdk",
-    "runtime-version" : "3.28",
+    "runtime-version" : "40",
     "sdk" : "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.golang"
@@ -157,7 +157,7 @@
                 }
             ],
             "build-commands": [
-                "GOPATH=$(pwd)/go sh -c 'cd go/src/github.com/zealdocs/zealcore && /usr/lib/sdk/golang/bin/go build'",
+                "GOPATH=$(pwd)/go GO111MODULE=off sh -c 'cd go/src/github.com/zealdocs/zealcore && /usr/lib/sdk/golang/bin/go build'",
                 "install -D go/src/github.com/zealdocs/zealcore/zealcore /app/bin/zealcore"
             ]
         }
